@@ -1,0 +1,97 @@
+@media (min-width: 768px) {.dropdown:hover .dropdown-menu{margin-top:0;display:block}}
+body{
+    height: 100vh;
+}
+.text1 {
+    position: absolute;
+    left: 40px;
+    top: 29px;
+    background: #fff;
+    padding: 0 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+.err{
+    color: red;
+    padding: 8px;
+    font-size: 14px;
+}
+.btn-success{
+    width: 100px;
+    margin: 5px;
+}
+.btn-danger{
+    width: 100px;
+    margin: 5px;
+}
+.msg{
+    color: green;
+    padding: 15px;
+}
+.forminputs{
+    width: 400px;
+    padding: 10px;
+    margin: 5px;
+    border: unset;
+    border-bottom: 3px solid #e6e6e6;
+    outline: none;
+}
+.labels{
+    text-align: center;
+    width:300px;
+}
+.buttons{
+    padding: 10px 0;
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: aliceblue;
+    border-color: #999999;
+    border: none;
+    border-radius: 30%;
+}
+a{
+    color: rgba(117, 179, 190, 0.87);
+    font-weight: bold;
+    text-decoration: none;
+}
+.text2 {
+    position: absolute;
+    right: 40px;
+    top: 29px;
+    background: #fff;
+    padding: 0 10px;
+}
+
+th,td{
+    padding:20px;
+    border:1px solid #ddd;
+    align-items: center;
+
+}
+tr{
+    padding:20px;
+    align-items: center;
+}
+.textdop{
+    font-size: 30px;
+    background-color: #e6e6e6;
+    border-radius: 20px;
+}
+.imgcheck{
+    padding:20px;
+    max-width: 300px;
+}
+table{
+    text-align: center;
+    font-size: 20px;
+}
+label{
+    background-color: whitesmoke;
+    border-radius: 30%;
+    margin: 20px;
+}
